@@ -1,52 +1,32 @@
 # Carlos Gahel Pulido Cervantes
 
-**Desarrollador full-stack · Consultor SAP Business One** — Tepic, Nayarit, México
+Soy desarrollador full-stack y consultor de SAP Business One. Vivo en Tepic, Nayarit, y trabajo
+en remoto.
 
-Tu ERP factura todos los días y nadie quiere tocarlo. Yo sí. Entro a sistemas que ya están en
-producción —SAP B1, .NET heredado, MSSQL—, les sumo lo que falta y los llevo al presente **sin
-detener la operación**.
-
-`ASP.NET · IIS · T-SQL` ⟷ `Nuxt · Service Layer · REST`
-
-| | |
-|---|---|
-| **500+** | usuarios en portales que sostengo, todos los días |
-| **16+** | empresas con software que diseñé y sigo manteniendo |
-| **0 h** | de paro durante migraciones |
-
----
+Casi todo lo que hago ocurre dentro de sistemas que ya están en producción: un ERP que factura
+desde hace años, un portal en ASP.NET que nadie ha tocado desde que se entregó, una base de datos
+que creció más de lo que alguien esperaba. Mi trabajo es entenderlos, agregarles lo que les falta
+y llevarlos al presente sin que la operación se detenga un solo día. Hasta ahora he migrado a más
+de 500 usuarios sin una hora de paro, y hay software que diseñé corriendo en 16 empresas.
 
 ## En qué ando
 
-**TIE · Tecnologías de la Información al Extremo** — Desarrollador y consultor SAP B1 · 10/2025 → hoy
+Desde octubre de 2025 trabajo en **TIE (Tecnologías de la Información al Extremo)** como
+desarrollador y consultor de SAP B1. Ahí construí desde cero los portales de Proveedores y de
+Gastos con Nuxt, PM2 y MSSQL, integrados directamente al Service Layer de SAP; reemplazaron a los
+portales heredados en ASP.NET WebForms de varias empresas, y los más de 500 usuarios fueron
+pasando poco a poco, sin ventana de mantenimiento. Alrededor de eso escribo herramientas en C#,
+Java 25 y ASP.NET para el trabajo pesado del área financiera —envío masivo de facturas,
+cancelaciones ante el SAT, depuración de errores de SAP, cobranza— y mantengo la infraestructura
+que ya estaba: MSSQL y SAP HANA afinados sobre Windows Server e IIS.
 
-- **Portales de Proveedores y Gastos desde cero** (Nuxt, PM2, MSSQL, REST API) integrados
-  nativamente por SAP B1 Service Layer. Relevaron a los portales heredados en ASP.NET WebForms
-  para 500+ usuarios de varias empresas, sin cortar la operación en el cambio.
-- **Automatización financiera** con herramientas satélite en C#, Java 25 y ASP.NET: envío masivo
-  de facturas, cancelaciones directas ante el SAT, depuración de errores de SAP y cobranza.
-- **La infraestructura que ya existe, cuidada**: MSSQL y SAP HANA afinados sobre Windows Server
-  e IIS, con la disponibilidad que pide la operación diaria.
+En paralelo, desde agosto de 2025 llevo el frontend y el e-commerce de **Pauliniss**. Rehice la
+tienda con un tema propio en Liquid sobre Shopify: carga 80% más rápido que la anterior y
+convierte un 30% más. También armé el catálogo y dirigí la fotografía de producto.
 
-**Pauliniss** — Frontend y e-commerce · 08/2025 → hoy
-Frontend a la medida en Liquid sobre Shopify: 80% menos tiempo de carga y +30% de conversión
-frente a la tienda original. Catálogo, UI/UX y dirección creativa de la fotografía de producto.
-
-**CECyTEN** — Desarrollador full-stack · 2018 — 2020
-Sistema estatal de administración escolar e inventarios para 11 planteles, con un equipo de 5,
-y facturación electrónica conforme a los lineamientos del SAT.
-
-## Cómo entro a un sistema que no escribí
-
-1. **Lo leo antes de tocarlo.** Qué factura, quién depende de él, qué se rompe si se detiene.
-   Eso sale en papel antes de cambiar una línea.
-2. **Lo nuevo corre al lado de lo viejo.** Nunca una fecha de corte: los usuarios se pasan cuando
-   los números ya cuadran, y pueden regresarse la misma tarde.
-3. **Lo dejo documentado, no dependiente de mí.** Quien venga después debe poder leer qué hace
-   sin llamarme. Ese es el punto.
-
-Un ERP que factura desde hace años no se reescribe por gusto: primero se entiende y se documenta.
-Si al final conviene migrarlo, ya sé exactamente qué hace.
+Antes, entre 2018 y 2020, estuve en **CECyTEN** dentro de un equipo de cinco personas,
+desarrollando el sistema estatal de administración escolar e inventarios que usaban los 11
+planteles, con facturación electrónica conforme a los lineamientos del SAT.
 
 ## Herramientas
 
@@ -59,30 +39,36 @@ Si al final conviene migrarlo, ya sé exactamente qué hace.
 | **Fiscal y ERP** | SAP B1 (Service Layer, DI-API, UI-API, SDK) · CFDI 4.0 · Integración SAT · Crystal Reports |
 | **Lo que mantengo** | ASP.NET WebForms · VB.NET con Crystal Reports · Windows Server e IIS |
 
-También llevo el lado creativo —vengo de agencia—: Illustrator, Photoshop, Premiere y fotografía
-de producto. Por eso Pauliniss salió con fotos propias y no con imágenes de banco.
+Sobre esa última fila: un ERP que lleva años facturando no se reescribe por gusto. Primero hay que
+entenderlo y documentarlo, y si al final conviene migrarlo, para entonces ya sé exactamente qué
+hace. Mientras tanto lo cuido.
+
+Vengo de una agencia de diseño, así que también me hago cargo del lado creativo cuando hace falta:
+Illustrator, Photoshop, Premiere y fotografía. Por eso Pauliniss salió con fotos de producto
+propias en lugar de imágenes de banco.
 
 ## Repos
 
-- **[nuclea-software](https://github.com/CarlosGPC1604/nuclea-software)** — Sistema multitenant
-  para PyMES: dashboard de administración, POS con timbrado CFDI vía Facturapi, portal de viáticos
-  y API de tipo de cambio del DOF. Next.js, Drizzle, PostgreSQL, Better Auth, WhatsApp Business.
+- **[nuclea-software](https://github.com/CarlosGPC1604/nuclea-software)** — Un sistema multitenant
+  para PyMES en el que administro clientes, provisiono portales y llevo la cuenta de los timbres
+  fiscales. Incluye un POS con timbrado CFDI, un portal de viáticos y una API del tipo de cambio
+  del DOF. Está hecho con Next.js, Drizzle, PostgreSQL y Better Auth.
 - **[Adaptray](https://github.com/CarlosGPC1604/Adaptray)** — Cambia el adaptador de red desde la
-  bandeja de Windows con un par de clics. C++ nativo, al estilo de EarTrumpet.
-- **[Proveedores-Demo](https://github.com/CarlosGPC1604/Proveedores-Demo)** — Demo del portal de
-  proveedores integrado con SAP Business One.
+  bandeja de Windows con un par de clics, en C++ nativo. La idea viene de EarTrumpet, pero para
+  tarjetas de red en vez de dispositivos de audio.
+- **[Proveedores-Demo](https://github.com/CarlosGPC1604/Proveedores-Demo)** — Una demo del portal
+  de proveedores integrado con SAP Business One.
 
 ## Formación
 
-**Licenciatura en Desarrollo de Software · UNIVAM** — Tepic, Nayarit · 2022 — 2025
-Tesis sobre modelos de lenguaje pequeños (SLMs) corriendo en local: qué rinden en hardware de
-consumo y qué datos dejan de salir del equipo.
-
-Español nativo · Inglés B2
+Estudié la Licenciatura en Desarrollo de Software en UNIVAM (Tepic, 2022 — 2025). Mi tesis fue
+sobre modelos de lenguaje pequeños corriendo en local: qué tanto rinden en hardware de consumo y
+qué datos dejan de salir del equipo cuando no dependen de la nube. Hablo español nativo e inglés B2.
 
 ## Contacto
 
-Remoto de tiempo completo desde Tepic (GMT-7), presencial en Nayarit o Jalisco. Respondo el mismo día.
+Trabajo en remoto de tiempo completo desde Tepic (GMT-7) y puedo ir presencial si es en Nayarit o
+Jalisco. Respondo el mismo día.
 
 - **Portafolio** — [carlosgpc.dev](https://carlosgpc.dev)
 - **Correo** — [carlosgahelpulidocervantes@gmail.com](mailto:carlosgahelpulidocervantes@gmail.com)
